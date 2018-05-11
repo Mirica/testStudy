@@ -32,9 +32,9 @@ for idx in range(0,6):
     if a > arr[idx]:
         r += (a - arr[idx]) * rat[idx]
        # print((i - arr[idx]) * rat[idx])
-        #i = arr[idx] 
+        #i = arr[idx]
 print(r)
-
+##test
 
 
 
