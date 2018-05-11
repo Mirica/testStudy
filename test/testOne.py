@@ -1,5 +1,6 @@
 #! /usr/bin/env python
 # coding : utf-8
+import math
 ##一些算法练习，总结在这里
 #打印一颗圣诞树
 height = 5
@@ -35,8 +36,12 @@ for idx in range(0,6):
         #i = arr[idx]
 print(r)
 
-i = 'ss'
+#一个整数，它加上100和加上268后都是一个完全平方数
 
-
+for i in range(10000):
+    x = int(math.sqrt(i + 100))
+    y = int(math.sqrt(i + 268))
+    if(x * x == i + 100) and (y * y == i + 268):
+        print(i)
 
 
