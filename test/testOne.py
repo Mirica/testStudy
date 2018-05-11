@@ -23,7 +23,7 @@ for i in range(1,5):
         for k in range (1,5):
             if (i != k) and (i != j) and (k != j):
                 print(i,j,k)
-print(i)
+print(i,k)
 a = int(input('净利润'))
 arr = [100,60,40,20,10,0]
 rat = [0.01,0.015,0.03,0.05,0.075,0.1]
