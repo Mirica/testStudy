@@ -1,5 +1,6 @@
 #! /usr/bin/env python
 # coding = utf-8
+#变量
 name = 'yummy'
 #单变量赋值
 a = 123
