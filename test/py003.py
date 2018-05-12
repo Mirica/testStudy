@@ -1,5 +1,20 @@
 #! /usr/bin/env python
 # coding = utf-8
+#连接
+x = 'hello'
+y = 'world'
+z = 3
+t = 5
+print(x+y) #helloworld
+print((z+t)) # 8
+#切片
+s = '-hello world-'
+print(s[7:3:-1]) #w ol
+print(s.split('o')) #按照某个符号或字符，切割字符串，返回的是list['-hell', ' w', 'rld-']
+print(s.strip('-'))#去掉前后的某个符号，返回字符串hello world
+c = '[sjkhdla]'
+print(c)  #列表[sjkhdla]
+print(c.strip('[]'))#字符串sjkhdla
 '''
 列表常用
 '''
