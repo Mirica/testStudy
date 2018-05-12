@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # coding = utf-8
 
-import requests
+import requests #http协议
 url = 'http://japi.juhe.cn/qqevaluate/qq'
 par = {
     'key ':'dddd',
