@@ -21,3 +21,6 @@ print(bool(c))
 print(bool(d))
 print(bool(c>e))  #运算 > < = !=  and or not
 print(bool(d and b))
+
+
+

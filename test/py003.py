@@ -54,5 +54,25 @@ print(d['name'])  #打印某个key的值
 d1 = {'age':{'ss','dd','as'}} #嵌套
 print(d1['age'])
 
+'''
+people = {'zhangsan':{'phone':'2341','addr':' foo drive 23'},
+          'lisi':{'phone':'9102','addr':'bar street 42'},
+          }
+lables = {'phone':'phone number','addr':'address'}
+name = input('name')
+req = input('phone number(p) or address (a)?' )
+if req == 'p':
+    key = 'phone'
+if req == 'a':
+    key = 'addr'
+if name in people:
+    print("%s's   %s   is  %s" %( name ,lables[key],people[name][key]))
+'''
+
+
+
+a = {'b':{'lili':'ai','age':18}}
+print(a['b']['age'])
+
 
 

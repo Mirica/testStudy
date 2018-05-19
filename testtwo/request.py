@@ -9,7 +9,11 @@ par = {
     }
 r = requests.get(url,params = par)
 print(r.text)
+print(r.status_code)
+print(r.headers)
 result = r.json()
 
 reason = result['reason']
 print(reason)
+
+getUrl = ''
